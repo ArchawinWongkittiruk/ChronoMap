@@ -23,7 +23,6 @@ const App = () => {
     map.data.addListener('mouseout', () => {
       setEntity(hint);
     });
-    console.log(process.env.REACT_APP_GOOGLE_MAPS_API_KEY);
   };
 
   return (
